@@ -3,7 +3,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.excample.home1.databinding.ItemSecondBinding
-import com.excample.home1.repository.model.MainModel
+import com.excample.home1.model.MainModel
 
 
 class SecondAdapter(

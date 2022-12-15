@@ -1,7 +1,6 @@
 package com.excample.home1.repository
 
-import com.excample.home1.repository.model.MainModel
-
+import com.excample.home1.model.MainModel
 
 class RecyclerRepository {
 
@@ -29,7 +28,7 @@ class RecyclerRepository {
         listData.add(
             MainModel(
                 "Гарет Бейл",
-                "https://img.championat.com/s/735x490/news/big/q/f/garet-bejl-obyavil-ob-uhode-iz-reala_16540752751103008272.jpg"
+                "https://90l.tribuna.com/images/fd/55/8b/fd558bdf86284a94a7afc9f56e560911500x500@2x.jpg"
             )
         )
         listData.add(

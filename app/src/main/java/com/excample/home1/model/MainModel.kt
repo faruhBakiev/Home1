@@ -1,4 +1,4 @@
-package com.excample.home1.repository.model
+package com.excample.home1.model
 
 data class MainModel(
     val name: String,

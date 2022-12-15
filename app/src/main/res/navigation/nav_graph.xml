@@ -9,19 +9,32 @@
         android:id="@+id/firstFragment"
         android:name="com.excample.home1.fragments.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" >
+        tools:layout="@layout/fragment_first">
         <action
             android:id="@+id/action_mainFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.excample.home1.fragments.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" >
+        tools:layout="@layout/fragment_detail">
         <argument
             android:name="name"
-            app:argType="string"
-            android:defaultValue="Faruh" />
+            android:defaultValue="Text"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.excample.home1.fragments.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second">
+        <argument
+            android:name="image"
+            android:defaultValue="text"
+            app:argType="string" />
     </fragment>
 </navigation>

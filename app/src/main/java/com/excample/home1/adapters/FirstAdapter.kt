@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.excample.home1.databinding.ItemFirstBinding
-import com.excample.home1.repository.model.MainModel
+import com.excample.home1.model.MainModel
 
 class FirstAdapter(
     private var List: ArrayList<MainModel>,
@@ -21,7 +21,6 @@ class FirstAdapter(
 
         fun onBind(mainModel: MainModel) {
             binding.tvName.text = mainModel.name
-            binding.root.tag = mainModel
         }
     }
 
